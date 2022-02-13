@@ -6,7 +6,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
     "babel-core": "^6.26.3",
     "graphql": "^16.1.0",
     "graphql-request": "^3.7.0",
