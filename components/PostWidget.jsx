@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 import { getRecentPosts, getSimilarPosts } from '../services';
 
@@ -16,10 +16,6 @@ const PostWidget = ({ categories, slug }) => {
                 .then((result) => setRelatedPosts(result))
         }
     }, [slug]);
-
-    console.log('====================================');
-    console.log(relatedPosts);
-    console.log('====================================');
 
     return (
         <div className="bg-white shadow-lg rounded-lg p-8 mb-8">
